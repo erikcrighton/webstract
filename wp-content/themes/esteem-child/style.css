@@ -1,0 +1,166 @@
+/*
+Theme Name: Esteem
+Theme URI: http://themegrill.com/themes/esteem/
+Author: ThemeGrill
+Author URI: http://themegrill.com
+Description: Esteem is a clean multipurpose responsive WordPress theme designed to fit business, portfolio, blogging or any type of site. The theme supports custom header, custom background, custom widgets, page templates and has built in options panel to configure primary color, site logo, slider, sidebar layout and 3 blog layout. It's also fully compatible with popular plugins like contact Form 7, WP PageNavi and Breadcrumb Navxt and is translation ready. Get free support at http://themegrill.com/support-forum/ and check the demo at http://demo.themegrill.com/esteem/.
+Version: 1.2.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, white, two-columns, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options, post-formats
+Text Domain: esteem
+Template: esteem
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+html {
+    background-color: #0991b3;
+    background-image: url('http://webstract.ca/wp-content/themes/esteem-child/img/city.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-position: 50% 30% !important;
+    -moz-background-position: 50% 30% !important;
+    background-position: 50% 30% !important;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/Portals/_default/Skins/Napoleon/images/site-background.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/Portals/_default/Skins/Napoleon/images/site-background.jpg', sizingMethod='scale')";
+    overflow: auto;
+}
+a:visited { 
+	color: #FFF7A8;
+}
+a:hover { 
+	color: #FFF7A8;
+}
+#colophon {
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+#site-generator a:hover, #colophon .widget a:hover {
+	color: #FFF7A8!important;
+}
+.main-navigation li a  {
+	color: #ffffff;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+.main-navigation ul li {
+    display: inline-table;
+    margin-right: 10px;
+}
+.main-navigation li a:hover {
+	color: #FFF7A8!important;
+}
+.main-navigation li a:active {
+	color: #FFF7A8;
+}
+.main-navigation li:hover > a {
+	color: #FFF7A8!important;
+}
+.main-navigation li.current_page_item > a, .main-navigation li.current-menu-item > a, .main-navigation li.current-menu-ancestor > a
+.icon-search {
+	color: #FFF7A8;
+}
+#colophon {
+	border-top: 3px solid #ffffff;
+    background-color: #333333;
+}
+body, button, input, select, textarea {
+	color: #ffffff;
+}
+#main {
+    padding-top: 17px;
+}
+.homepage {
+	color: #FFF7A8;
+	font-family: 'Sansita One', cursive;
+	font-size: 22px;
+	letter-spacing: 2px;
+	line-height: 26px;
+	margin-top: 7px;
+	text-transform: uppercase;
+}
+.nav-menu > ul > li > a, .menu > ul > li > a {
+    line-height: 50px;
+    height: 0px; 
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #ffffff;
+	color: #14A8CC;
+}
+span.wpcf7-not-valid-tip {
+    color: #FFF7A8;
+    font-size: 1em;
+    display: block;
+}
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #FFF7A8;
+}
+div.wpcf7-validation-errors {
+    border: 2px solid #FFF7A8;
+}
+.page-title-wrap h1 {
+    color: #14A8CC;
+    font-size: 27px;
+}
+#page {
+    background-color: #14A8CC;
+    max-width: 1038px;
+    margin: 0 auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+.page-title-bar {
+    background-color: #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    color: #14A8CC;
+    font-size: 16px;
+    padding: 17px 0;
+}
+.header-logo-image {
+    margin-top: 10px;
+}
+.textwidget {
+	text-align: center;
+}
+.contact-cont {
+	margin-bottom: 30px;
+}
+.contact {
+	color: #FFF7A8;
+	font-family: 'Sansita One', cursive;
+	font-size: 22px;
+	letter-spacing: 2px;
+	line-height: 26px;
+	margin-top: 7px;
+	text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 768px) {
+
+.menu-toggle:before {
+    color: #FFF7A8!important;
+    content: "\f0c9";
+    font-family: fontawesome;
+    font-size: 22px;
+    position: absolute;
+}
+.nav-menu > ul > li > a, .menu > ul > li > a {
+    border-bottom: 1px solid #f8f8f8;
+    color: #FFF7A8!important;
+    display: block;
+    	font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+    padding: 10px 0;
+    width: 100%;
+}
+}
+
