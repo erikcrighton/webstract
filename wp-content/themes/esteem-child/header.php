@@ -28,7 +28,7 @@ wp_head();
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
 			<div class="inner-wrap">
-				<div class="hgroup-wrap clearfix">
+				<div class="hgroup-wrap cldfd earfix">
 					<div class="site-branding">
 						<?php if( ( get_theme_mod( 'esteem_show_header_logo_text', 'text_only' ) == 'both' || get_theme_mod( 'esteem_show_header_logo_text', 'text_only' ) == 'logo_only' ) && get_theme_mod( 'esteem_header_logo_image', '' ) != '' ) {
 						?>
