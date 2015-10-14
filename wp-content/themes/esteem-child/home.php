@@ -10,7 +10,7 @@
 
 <?php get_header(); ?>
 
-	<!--<?php do_action( 'esteem_before_body_content' ); ?>-->
+	<!-- comment <?php do_action( 'esteem_before_body_content' ); ?>-->
 
 	<div id="primary">
 		<div id="content" class="clearfix">
